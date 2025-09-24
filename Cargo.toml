@@ -10,6 +10,7 @@ documentation = "https://docs.rs/vello_api"
 
 [dependencies]
 peniko = "0.4.1"
+bytemuck = "1.23.2"
 
 [features]
 default = []

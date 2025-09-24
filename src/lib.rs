@@ -6,6 +6,8 @@
 //! across different implementations
 #![forbid(unsafe_code)]
 
+extern crate alloc;
+
 pub use peniko;
 pub use peniko::color;
 pub use peniko::kurbo;
