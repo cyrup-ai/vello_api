@@ -1,0 +1,15 @@
+[package]
+name = "vello_api"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Public API types for CPU and hybrid CPU/GPU rendering implementations"
+homepage = "https://github.com/cyrup-ai/vello_api"
+repository = "https://github.com/cyrup-ai/vello_api"
+documentation = "https://docs.rs/vello_api"
+
+[dependencies]
+peniko = "0.4.1"
+
+[features]
+default = []
