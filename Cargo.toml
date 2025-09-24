@@ -9,7 +9,7 @@ repository = "https://github.com/cyrup-ai/vello_api"
 documentation = "https://docs.rs/vello_api"
 
 [dependencies]
-peniko = "0.4.1"
+peniko = { version = "0.4.1", features = ["bytemuck"] }
 bytemuck = "1.23.2"
 
 [features]
